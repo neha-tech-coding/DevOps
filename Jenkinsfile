@@ -1,7 +1,2 @@
-Jenkinsfile
-
-agent any {  
-    checkout test
-    dockerimage test
-    releasek8sgcp test
-}
+@Library('shared-lib') _
+welcomeJob ‘lambdatest’
