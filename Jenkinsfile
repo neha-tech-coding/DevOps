@@ -1,2 +1,2 @@
-@Library('shared-lib')
+@Library('shared-lib') _
 hello ‘lambdatest’
